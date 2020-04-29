@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../hoc/Auxillary/Aux';
+import Aux from '../../hoc/Auxl';
 import Styles from './Layout.module.css'
 const Layout = (props) =>{
     
@@ -9,7 +9,7 @@ const Layout = (props) =>{
             <main className = {Styles.content}>
                 {props.children}
             </main>
-        </Aux>
+             </Aux>
         );
 }
 
